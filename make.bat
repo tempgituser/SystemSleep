@@ -1,0 +1,2 @@
+del SystemSleep.obj
+cl /OUT:SystemSleep.exe SystemSleep.cpp /GS /GL /analyze- /W3 /Gy /Zc:wchar_t /Zi /Gm- /O2 /fp:precise /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_LIB" /D "_UNICODE" /D "UNICODE" /errorReport:prompt /WX- /Zc:forScope /Gd /Oy- /Oi /MD /Fp"Release\InputStringAssist.pch" /LTCG /NXCOMPAT /DYNAMICBASE /DEBUG /MACHINE:X86 /OPT:REF /SAFESEH /INCREMENTAL:NO  /SUBSYSTEM:CONSOLE /MANIFESTUAC:"level='asInvoker' uiAccess='false'"  /OPT:ICF /ERRORREPORT:PROMPT /NOLOGO /TLBID:1 
